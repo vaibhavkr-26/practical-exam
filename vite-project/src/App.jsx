@@ -18,7 +18,7 @@ function App() {
       <ul>
         {posts.map((post) => (
           <li key={post.id}>
-            <strong>{post.title}</strong>
+            <span>{post.title}</span>
             <p>{post.body}</p>
           </li>
         ))}
